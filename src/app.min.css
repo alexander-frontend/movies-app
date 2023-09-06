@@ -19285,10 +19285,6 @@ small {
   pointer-events: none;
 }
 
-#home {
-  background: silver;
-}
-
 /*!
  * Bootstrap Grid v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -24366,5 +24362,8 @@ small {
   .d-print-none {
     display: none !important;
   }
+}
+#home {
+  background: silver;
 }
 /*# sourceMappingURL=app.min.css.map */

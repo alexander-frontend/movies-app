@@ -22,15 +22,15 @@ const scripts = [
   '!node_modules/angular*/*-mocks.js',
   '!node_modules/angular*/index.js',
   '!node_modules/angular-mocks/*.js',
-  'app/**/*.module.js',
-  'app/app.module.js',
-  'app/js/index.js',
-  'app/**/*.js',
-  '!app/**/*.spec.js',
-  '!app/app.min.js',
+  'src/**/*.module.js',
+  'src/app.module.js',
+  'src/js/index.js',
+  'src/**/*.js',
+  '!src/**/*.spec.js',
+  '!src/app.min.js',
 ];
 
-const styles = ['app/css/index.scss', 'app/**/*.scss'],
+const styles = ['src/css/index.scss', 'src/**/*.scss'],
   styleIncludes = ['node_modules/angular-material'];
 
 function is_src(file) {
@@ -45,22 +45,22 @@ function js() {
     .pipe(gulpIf(is_src, footer('\n})();')))
     .pipe(concat('app.min.js'))
     .pipe(ngAnnotate({ add: true }))
-    .pipe(dest('app', { sourcemaps: '.' }));
+    .pipe(dest('src', { sourcemaps: '.' }));
 }
 
 function css() {
   return src(styles, { sourcemaps: true })
     .pipe(concat('app.min.scss'))
     .pipe(sass({ includePaths: styleIncludes }).on('error', sass.logError))
-    .pipe(dest('app', { sourcemaps: '.' }));
+    .pipe(dest('src', { sourcemaps: '.' }));
 }
 
 function serve(done) {
   connect.server(
     {
-      root: 'app/',
+      root: 'src/',
       port: 8888,
-      fallback: 'app/index.html',
+      fallback: 'src/index.html',
       livereload: true,
     },
     done
@@ -72,15 +72,15 @@ function reload(path) {
 }
 
 function reload_js() {
-  return reload('app/app.min.js');
+  return reload('src/app.min.js');
 }
 
 function reload_css() {
-  return reload('app/app.min.css');
+  return reload('src/app.min.css');
 }
 
 function watch_src(done) {
-  watch(['app/**/*.html']).on('all', (event, path) => reload(path));
+  watch(['src/**/*.html']).on('all', (event, path) => reload(path));
   watch(scripts, series(js, reload_js));
   watch(styles, series(css, reload_css));
   done();
@@ -94,7 +94,7 @@ function dist_clean() {
   return del(['dist/**/*']);
 }
 
-const templates = ['app/**/*.html', '!app/index.html'];
+const templates = ['src/**/*.html', '!src/index.html'];
 
 function partials() {
   return src(templates)
@@ -141,7 +141,7 @@ function revision() {
 
 function dist_index() {
   const manifest = readFileSync('dist/rev-manifest.json');
-  return src('app/index.html')
+  return src('src/index.html')
     .pipe(revRewrite({ manifest }))
     .pipe(dest('dist'));
 }
@@ -151,11 +151,11 @@ function dist_app() {
 }
 
 function dist_favicon() {
-  return src('app/favicon.png').pipe(dest('dist'));
+  return src('src/favicon.png').pipe(dest('dist'));
 }
 
 function dist_images() {
-  return src('app/images/**/*.*').pipe(dest('dist/images'));
+  return src('src/images/**/*.*').pipe(dest('dist/images'));
 }
 
 exports.build = series(
