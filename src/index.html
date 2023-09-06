@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <base href="/sweettv-test/" />
+
+    <title>AngularJS Starter Application</title>
+
+    <link rel="stylesheet" href="app.min.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <script src="app.min.js"></script>
+  </head>
+
+  <body ng-app="app" ng-controller="spinnerFilmCtrl" ng-strict-di>
+    <main class="main-page px-4 py-4" ng-class="{'is-loading': isLoading}">
+      <div class="main-page__inner container">
+        <div class="row">
+          <div
+            class="main-page__movie d-flex align-items-center justify-content-center col-md-7 px-5 py-5 ps-md-0"
+          >
+            <div>
+              <div
+                ng-if="movie"
+                class="main-page__movie-inner d-sm-inline-flex d-lg-inline-flex"
+              >
+                <div class="main-page__movie-poster col-sm-3 col-md-4">
+                  <img src="{{movie.image_path}}" alt="" />
+                </div>
+
+                <div
+                  class="main-page__movie-desc col-sm-9 col-md-8 justify-content-between flex-column d-flex"
+                >
+                  <div>
+                    <h1>{{movie.title}}</h1>
+                    <span>{{movie.year}}</span>,
+                    <span>{{movie.genre_type}}</span>,
+
+                    <span>{{filterRatingLabel}}: {{movie.rating_score}}</span>
+                    <p>{{movie.description}}</p>
+                  </div>
+
+                  <button
+                    ng-click="showGreeting($event)"
+                    class="button-gradient text-center"
+                  >
+                    {{watchNowButtonText}}
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div ng-if="!movie" class="main-page__not-found my-5">
+              {{spinText}}
+            </div>
+
+            <div class="loader my-5">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="col-md-5 px-5 py-md-5 pb-5">
+            <div
+              class="main-page__filters align-content-between flex-column d-flex"
+            >
+              <div>
+                <div class="form__fieldset mb-4">
+                  <div class="form__block">
+                    <label>{{filterGenreLabel}}:</label>
+                    <div
+                      select-filter="genreOps"
+                      selection="selectionGenre"
+                      class="custom-select"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="form__fieldset mb-4">
+                  <div class="form__block">
+                    <label>{{filterYearLabel}}:</label>
+                    <div
+                      select-filter="yearOps"
+                      selection="selectionYear"
+                      class="custom-select"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="form__fieldset mb-4">
+                  <div class="form__block">
+                    <label>{{filterRatingLabel}}:</label>
+                    <div
+                      select-filter="ratingOps"
+                      selection="selectionRating"
+                      class="custom-select"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                class="button-gradient mt-4 text-center"
+                ng-click="spinMovie()"
+              >
+                {{spinButtonText}}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
