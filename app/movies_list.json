@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Вартові галактики 3",
+    "year": 2023,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BCSNIAISAJ2WWGQFBAARB2AH/27172-vartovi-galaktiki-3.jpg",
+    "genre_type": "action",
+    "rating_score": 8.1,
+    "trailer_link": "https://vod4.sweet.tv/trailer/27172/uk/video-1080.mp4"
+  },
+  {
+    "id": 2,
+    "title": "Роман Ізраел, Esq.",
+    "year": 2017,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDPGYEQCOVVRUBIIAEIOQBY=/13918-roman-izrael-esq.jpg",
+    "genre_type": "drama",
+    "rating_score": 8.8,
+    "trailer_link": "https://vod4.sweet.tv/trailer/13918/uk/video-1080.mp4"
+  },
+  {
+    "id": 3,
+    "title": "Бетмен",
+    "year": 2021,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDBJKAISAJ2WWGQFBAARB2AH/19138-betmen.jpg",
+    "genre_type": "action",
+    "rating_score": 7.4,
+    "trailer_link": "https://vod4.sweet.tv/trailer/19138/uk/video-1080.mp4"
+  },
+  {
+    "id": 4,
+    "title": "Зелений ліхтар",
+    "year": 2015,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDKWMEQCOVVRUBIIAEIOQBY=/13141-zeleniy-lihtar.jpg",
+    "genre_type": "action",
+    "rating_score": 6.8,
+    "trailer_link": "https://vod4.sweet.tv/trailer/13141/uk/video-720.mp4"
+  },
+  {
+    "id": 5,
+    "title": "Людина-павук: Повернення додому",
+    "year": 2020,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDCSOEQCOVVRUBAIAEIEM===/5061-lyudina-pavuk-povernennya-dodomu.jpg",
+    "genre_type": "action",
+    "rating_score": 8.5,
+    "trailer_link": ""
+  },
+  {
+    "id": 6,
+    "title": "Великий Лебовські",
+    "year": 2001,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BD5ZSAISAJ2WWGQEBAARARI=/19707-velikiy-lebovski.jpg",
+    "genre_type": "comedy",
+    "rating_score": 9.4,
+    "trailer_link": "https://vod4.sweet.tv/trailer/19707/en/video-1080.mp4"
+  },
+  {
+    "id": 7,
+    "title": "Вовк з Волл Стріт",
+    "year": 2015,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDOBEEQCOVVRUBAIAEIDQ===/2396-vovk-z-voll-strit.jpg",
+    "genre_type": "comedy",
+    "rating_score": 9.6,
+    "trailer_link": "https://vod4.sweet.tv/trailer/2396/uk/video-720.mp4"
+  },
+  {
+    "id": 8,
+    "title": "Залягти на дно в Брюге",
+    "year": 2023,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BD5QKEQCOVVRUBAIAEIEK===/763-zalyagti-na-dno-v-bryuge.jpg",
+    "genre_type": "drama",
+    "rating_score": 8.9,
+    "trailer_link": "https://vod4.sweet.tv/trailer/763/en/video-1080.mp4"
+  },
+  {
+    "id": 9,
+    "title": "Бургерна Боба в кіно",
+    "year": 2023,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDY34AISAJ2WWGQFBAARB2AH/24433-burgerna-boba-v-kino.jpg",
+    "genre_type": "cartoon",
+    "rating_score": 7.4,
+    "trailer_link": "https://vod4.sweet.tv/trailer/24433/en/video-1080.mp4"
+  },
+  {
+    "id": 10,
+    "title": "Капітан Фантастік",
+    "year": 2014,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDVR4EQCOVVRUBAIAEIDM===/3947-kapitan-fantastik.jpg",
+    "genre_type": "drama",
+    "rating_score": 6.6,
+    "trailer_link": "https://vod4.sweet.tv/trailer/3947/uk/video-1080.mp4"
+  },
+  {
+    "id": 11,
+    "title": "Форрест Ґамп",
+    "year": 2023,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDEJYAISAJ2WWGQEBAARARY=/20040-forrest-gamp.jpg",
+    "genre_type": "drama",
+    "rating_score": 9.8,
+    "trailer_link": "https://vod4.sweet.tv/trailer/20040/uk/video-1080.mp4"
+  },
+  {
+    "id": 12,
+    "title": "Містер Бін в Америці",
+    "year": 2004,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BC4VKEQCOVVRUBIIAEIOQBY=/10937-mister-bin-v-americi.jpg",
+    "genre_type": "comedy",
+    "rating_score": 5.7,
+    "trailer_link": "https://vod4.sweet.tv/trailer/10937/uk/video-1080.mp4"
+  },
+  {
+    "id": 13,
+    "title": "Льодовиковий період 4: Континентальний дрейф",
+    "year": 2011,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDTH6EQCOVVRUBIIAEIOQBY=/16358-lodovikoviy-period-4-kontinentalniy-dreyf.jpg",
+    "genre_type": "cartoon",
+    "rating_score": 7.3,
+    "trailer_link": "https://vod4.sweet.tv/trailer/16358/uk/video-1080.mp4"
+  },
+  {
+    "id": 14,
+    "title": "Поліцейська Академія",
+    "year": 1984,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDOFCEQCOVVRUBIIAEIOQBY=/10460-policeyska-akademiya.jpg",
+    "genre_type": "comedy",
+    "rating_score": 6.9,
+    "trailer_link": "https://vod4.sweet.tv/trailer/10460/en/video-1080.mp4"
+  },
+  {
+    "id": 15,
+    "title": "Сімпсони у кіно",
+    "year": 2007,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BCT3IAISAJ2WWGQFBAARB2AH/23079-simpsoni-u-kino.jpg",
+    "genre_type": "cartoon",
+    "rating_score": 8.1,
+    "trailer_link": "https://vod4.sweet.tv/trailer/23079/en/video-1080.mp4"
+  },
+  {
+    "id": 16,
+    "title": "Губка Боб Квадратні Штани",
+    "year": 2005,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BDWMKAISAJ2WWGQEBAARAWQ=/25324-gubka-bob-kvadratni-shtani.jpg",
+    "genre_type": "cartoon",
+    "rating_score": 5.5,
+    "trailer_link": "https://vod4.sweet.tv/trailer/23079/en/video-1080.mp4"
+  },
+  {
+    "id": 17,
+    "title": "Лоґан: Росомаха",
+    "year": 2012,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BCIUOEQCOVVRUBIIAEIOQBY=/9105-logan-rosomaha.jpg",
+    "genre_type": "action",
+    "rating_score": 8.3,
+    "trailer_link": "https://vod4.sweet.tv/trailer/9105/uk/video-1080.mp4"
+  },
+  {
+    "id": 18,
+    "title": "Мулан",
+    "year": 2023,
+    "description": "Quisque cursus sed justo ultrices malesuada. Etiam dapibus posuere molestie. Nam congue eu nisl a venenatis. Nulla id felis pellentesque, malesuada eros id, accumsan lorem.",
+    "image_path": "https://static.sweet.tv/images/cache6/posters/BCOZ4AISAJ2WWGQEBAARARA=/20253-mulan.jpg",
+    "genre_type": "cartoon",
+    "rating_score": 6.5,
+    "trailer_link": "https://vod4.sweet.tv/trailer/20253/en/video-1080.mp4"
+  }
+]
