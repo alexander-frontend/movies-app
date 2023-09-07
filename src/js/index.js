@@ -205,7 +205,7 @@ app.controller(
 
     $http({
       method: 'get',
-      url: '../movies_list.json',
+      url: '../sweettv-test/src/movies_list.json',
     }).then(
       function (response) {
         $scope.moviesData = response.data;
